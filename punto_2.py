@@ -38,8 +38,8 @@ def seg_elemnto(sub):
 dicc_en_list = sorted(dicc_en_list, key=seg_elemnto, reverse=True)
 # dicc_en_list = sorted(dicc_en_list, key=lambda lista:lista[2], reverse=True)
 
-for sublista in dicc_en_list:
-    print(sublista)
+# for sublista in dicc_en_list:
+#     print(sublista)
 
 for sublista in dicc_en_list[-5:]:
     id, rev, num = sublista
